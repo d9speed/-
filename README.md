@@ -1,2 +1,13 @@
 # Marvelous Designer用のスクリプト
-Blender→Marvelous Designerの雑多なスクリプト
+BlenderのメッシュからMarvelous Designer用のパタ－ンを生成するスクリプト
+
+・メッシュの頂点位置はZがゼロ(Marvelous Designerの2Dパターンになるため)で
+
+・Bmeshの孤立したメッシュ(島)をパターンにします
+・頂点は閉じていなくても大丈夫
+・メッシュは1mとか2mとか大きいほうがすんなり変換できると思います、あとはMarvelous Designer側でスケールしてください
+・頂点が多いと時間がかかると思うので、適当に増減してください。
+
+
+クリップボードに座標データをコピーするので、Marvelous DesignerのPythonコンソールに
+ペーストして実行するとパターンが生成されます
