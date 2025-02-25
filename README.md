@@ -8,6 +8,9 @@ BlenderのメッシュからMarvelous Designer用のパタ－ンを生成する�
  ・頂点は閉じていたほうが安牌
  ・メッシュは1mとか2mとか大きいほうがすんなり変換できると思います、あとはMarvelous Designer側でスケールしてください
  ・頂点が多いと時間がかかると思うので、適当に増減してください。
+![Blender](images/Blender_SC001.png)
+
+
 
 ## マベ側
  クリップボードに座標データをコピーするので、Marvelous DesignerのPythonコンソールに
