@@ -13,5 +13,3 @@ BlenderのメッシュからMarvelous Designer用のパタ－ンを生成する�
 クリップボードに座標データをコピーするので、Marvelous DesignerのPythonコンソールに
 ペーストして実行するとパターンが生成されます
 ![MD](images/スクリーンショット 2025-02-25 172843.png)
-
-images/スクリーンショット 2025-02-25 172843.png
