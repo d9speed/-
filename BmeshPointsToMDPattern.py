@@ -2,6 +2,10 @@ import bpy
 import bmesh
 import math
 
+
+# 2025-02-25 ChatGPTにより生成したコード
+# ジオメトリノードで文字列→メッシュに変換、ポリゴンは貼らないエッジと頂点のみのメッシュを想定
+
 # アクティブオブジェクトがメッシュかどうか確認
 obj = bpy.context.active_object
 if obj is None or obj.type != 'MESH':
@@ -29,6 +33,7 @@ else:
                 if other not in visited:
                     stack.append(other)
     
+    # BmeshでDFS(深さ優先探索アルゴリズム)を用いて孤立メッシュを検索する
     # すべての連結成分に対してDFSを実施
     for vert in bm.verts:
         if vert not in visited:
